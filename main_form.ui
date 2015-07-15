@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>main_form</class>
+ <widget class="QWidget" name="main_form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>440</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>380</y>
+     <width>171</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="2" column="0">
+     <widget class="QPushButton" name="online_Button">
+      <property name="text">
+       <string>Online</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="exit_Button">
+      <property name="text">
+       <string>Выход</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="classic_Button">
+      <property name="text">
+       <string>Классика</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="time_Button">
+      <property name="text">
+       <string>На время</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <zorder>classic_Button</zorder>
+  <zorder>time_Button</zorder>
+  <zorder>online_Button</zorder>
+  <zorder>exit_Button</zorder>
+  <zorder>time_Button</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
